@@ -9,8 +9,8 @@
      typedef eosio::multi_index< "accounts"_n, account > accounts;
 
 
-    //FUNCTION TO FIND USER AMOUT OF GLUEDOG LP TOKEN INSIDE DEFIBOX TABLE
-    asset get_asset_amount(name user, asset token )//user and glue dog LP tokan, amount doesnt matter just put something there to quickly have the symbol
+    //FUNCTION TO FIND USER AMOUNT OF GLUEDOG LP TOKEN INSIDE DEFIBOX TABLE
+    asset get_asset_amount(name user, asset token )//user account name and glue dog LP tokan, amount doesnt matter just put something there to quickly have the symbol
     {
 
         symbol lpsym = token.symbol;
